@@ -73,6 +73,7 @@ footer{
   padding-bottom: 30px;
   text-align: center;
 }
+
 embed{
   width: 500px; /*45%*/ 
   height: 500px;
@@ -87,11 +88,12 @@ nav a{
   
 }
 
-nav li a:hover{
+nav li a:current{
   text-decoration: underline;
+  background-color: rosybrown;
 }
 nav li a:active{
-  background-color: rosybrown;
+  
   color: #ddd;
   text-transform: uppercase;
 }
@@ -146,24 +148,12 @@ header{
   box-sizing: border-box;
 }
 
+img{
+    width: 100%;
+}
+
 .about-image{
-  /*grid-column: 1 /  -1;
-  grid-row: 2 /  span 1; */
-  display: flex;
-  flex-direction: row;
-  word-wrap: break-word;
-  border-style: solid;
-  position: relative;
-  
-  
-  
-  /*grid-column: 1 /  2;
-  grid-row: 1 /  3;
-  max-height: 700px;
-  overflow: hidden;
-  */
-  
-  
+    width: 300px
 }
 
 .about{
