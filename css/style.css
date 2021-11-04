@@ -88,7 +88,7 @@ nav a{
   
 }
 
-nav li a:current{
+nav li a.current{
   text-decoration: underline;
   background-color: rosybrown;
 }
